@@ -1,4 +1,5 @@
-﻿var SinglePage = {};
+﻿@import
+var SinglePage = {};
 
 SinglePage.LoadModal = function () {
     var url = window.location.hash.toLowerCase();
