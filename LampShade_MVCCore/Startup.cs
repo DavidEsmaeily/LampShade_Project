@@ -1,3 +1,4 @@
+using DiscountManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,7 @@ namespace LampShade_MVCCore
         {
             services.AddRazorPages();
             ShopManagementBootstrapper.Configure(services, Configuration.GetConnectionString("LampshadeDb"));
+            DiscountManagementBootstrapper.Configure(services, Configuration.GetConnectionString("LampshadeDb"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
