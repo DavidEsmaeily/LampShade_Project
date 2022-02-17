@@ -35,9 +35,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Application", "DM.Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Infrastructure", "DM.Infrastructure", "{A2144676-7F60-4354-B887-CAD84AAC5273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Domain", "DiscountManagement.Domain\DiscountManagement.Domain.csproj", "{18A20570-9237-497F-979E-5723C1E9E19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagement.Domain", "DiscountManagement.Domain\DiscountManagement.Domain.csproj", "{18A20570-9237-497F-979E-5723C1E9E19C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_LampshadeQuery", "01_LampshadeQuery\01_LampshadeQuery.csproj", "{36711695-AF97-47CE-B0FE-9C932D03FEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_LampshadeQuery", "01_LampshadeQuery\01_LampshadeQuery.csproj", "{36711695-AF97-47CE-B0FE-9C932D03FEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Application.Contracts", "DiscountManagement.Application.Contracts\DiscountManagement.Application.Contracts.csproj", "{EC757031-E8EB-4792-AF38-218294983884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Infrastructure.EFCore", "DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj", "{7815007F-334C-4440-A7BF-FB2EB73D5A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Application", "DiscountManagement.Application\DiscountManagement.Application.csproj", "{1F502943-5862-4F6D-9637-303789188211}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{36711695-AF97-47CE-B0FE-9C932D03FEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36711695-AF97-47CE-B0FE-9C932D03FEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36711695-AF97-47CE-B0FE-9C932D03FEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC757031-E8EB-4792-AF38-218294983884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC757031-E8EB-4792-AF38-218294983884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC757031-E8EB-4792-AF38-218294983884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC757031-E8EB-4792-AF38-218294983884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7815007F-334C-4440-A7BF-FB2EB73D5A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7815007F-334C-4440-A7BF-FB2EB73D5A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7815007F-334C-4440-A7BF-FB2EB73D5A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7815007F-334C-4440-A7BF-FB2EB73D5A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F502943-5862-4F6D-9637-303789188211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F502943-5862-4F6D-9637-303789188211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F502943-5862-4F6D-9637-303789188211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F502943-5862-4F6D-9637-303789188211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +117,9 @@ Global
 		{F64C7041-1C77-4F5D-BB0F-868A2E164F12} = {AF9CD496-60CA-4C14-9953-41AA3DA59BBA}
 		{A2144676-7F60-4354-B887-CAD84AAC5273} = {AF9CD496-60CA-4C14-9953-41AA3DA59BBA}
 		{18A20570-9237-497F-979E-5723C1E9E19C} = {FB32CFD1-09C2-47FE-8698-E0A90DBDAFA2}
+		{EC757031-E8EB-4792-AF38-218294983884} = {F64C7041-1C77-4F5D-BB0F-868A2E164F12}
+		{7815007F-334C-4440-A7BF-FB2EB73D5A7F} = {A2144676-7F60-4354-B887-CAD84AAC5273}
+		{1F502943-5862-4F6D-9637-303789188211} = {F64C7041-1C77-4F5D-BB0F-868A2E164F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {422DB49A-637A-4563-8DBE-53FA851A8104}
